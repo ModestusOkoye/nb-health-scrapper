@@ -1,0 +1,16 @@
+{
+  "name": "nb-health-scraper",
+  "version": "1.0.0",
+  "description": "Playwright scraper for Vitalité and Horizon Health job postings",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "scrape": "node scraper.js"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
